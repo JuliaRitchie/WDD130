@@ -1,0 +1,23 @@
+.colored-background {
+    color: green;
+    background: salmon;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 1em;
+}
+body {
+    max-width:90xp;
+    margin: auto
+}
+
+img{
+    max-width: 100%;
+}
+
+.media-box{
+    background-color: white;
+}
+
+.centered {
+    text-align: center;
+}

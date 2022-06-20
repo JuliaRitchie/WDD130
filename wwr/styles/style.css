@@ -238,6 +238,34 @@ nav {
     text-align: center;
 }
 
+#scenery-img{
+    width: 100%;
+    margin-bottom: -210px;
+    margin-top: -10px;
+}
+
+#salmon-boat-pic{
+    margin-right: 0px;
+    margin-left: 845px;
+}
+
+#dates{
+    margin-top: -250px;
+    margin-bottom: 200px;
+    margin-left: 300px;
+}
+
+#calendar{
+    margin-left: 600px;
+}
+
+#ram-text{
+    margin-left: 600px;
+    margin-top: 300px;
+    margin-bottom: -200px;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

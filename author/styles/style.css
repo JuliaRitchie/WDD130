@@ -1,4 +1,101 @@
-.logo{
-    width: 10em;
-    height: 10em;
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Prompt&display=swap');
+
+
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a{
+    text-align: center;
+    color: #ccc;
+    text-decoration: none;
+    padding: 50px;
+    font-size: 30px;
+
+}
+
+#background{
+    height: 600px;
+    background-color: #985F99;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+body {
+    background-color: #ccc;
+    color: #4e598c  ;
+    font-family: 'Joan';
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4e598c;
+    color: #ccc;
+    display: grid;
+    grid-template-columns: 150px auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+nav a:hover{
+    background-color: #ccc;
+    color: #4e598c;
+}
+
+footer{
+    background-color: #4e598c;
+    color: #ccc;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer h3{
+    color: #ccc;
+}
+
+footer a{
+    color: #ccc;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: #ccc;
+    color: #4e598c;
+}
+
+.icon{
+    width: 180px;
+    padding-top: 10px;
+}
+
+#logo-link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+#homepage-section{
+    text-align: center;
+}
+
+#homepage-section2{
+    text-align: center;
 }

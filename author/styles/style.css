@@ -11,8 +11,8 @@ nav a{
     text-align: center;
     color: #ccc;
     text-decoration: none;
-    padding: 50px;
-    font-size: 30px;
+    padding: 40px;
+    font-size: 25px;
 
 }
 
@@ -27,7 +27,7 @@ body {
     background-color: #ccc;
     color: #4e598c  ;
     font-family: 'Joan';
-    font-size: 30px;
+    font-size: 25px;
     margin: 0;
     padding: 0;
 }
@@ -92,10 +92,50 @@ footer .social img{
     padding-top: 15px;
 }
 
-#homepage-section{
+h1{
     text-align: center;
+    margin-bottom: 50px;
+}
+.bookshelf{
+    width: 500px;
+    height: 500px;
 }
 
-#homepage-section2{
-    text-align: center;
+.writing-notebook{
+    height: 300px;
+    width: 400px;
+    margin-right: 75px;
+}
+
+#form1{
+    margin-top: 50px;
+}
+
+.writing-notebook{
+    float: left;
+
+}
+
+#right-text{
+    float: right;
+}
+
+#form2{
+    margin-top: 210px;
+}
+
+.bookshelf{
+    margin-top: 0px;
+    float: right;
+    height: 300px;
+    margin-left: 50px;
+}
+
+.homepage-text{
+    margin-top: 120px;
+}
+
+.left-text{
+    margin-top: 120px;
+    margin-bottom: -75px;
 }

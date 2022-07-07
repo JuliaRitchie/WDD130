@@ -199,3 +199,25 @@ h1{
     color: white;
     transform: rotateY(180deg);
   }
+
+  .text-box{
+    background-color: white;
+    padding: 20px;
+    z-index: 4;
+    margin-top: 250px;
+    margin-left: 180px;
+    width: 1200px;
+    position: absolute;
+  }
+
+  .notebook-img{
+    width: 1600px;
+    height: 1000px;
+    z-index: -1;
+    margin-bottom: -200px;
+  }
+
+  .sticky-notes{
+    width: 1600px;
+    margin-top: 10px;
+  }
